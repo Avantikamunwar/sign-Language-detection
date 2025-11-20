@@ -1,0 +1,15 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore model & dataset if you don't want them stored
+data/
+data.pickle
+model.p
+
+# Virtual environment
+venv/
+.env/
+
+# OS files
+.DS_Store
